@@ -1,0 +1,26 @@
+/**
+* insight css
+* kongxiangzheng@360.cn
+* 2013.07.02
+*/
+@charset utf-8;
+body{font: 12px "微软雅黑",Verdana,SimHei,"Microsoft JhengHei",Tahoma;color: #666;position: relative;overflow-x: hidden; }
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,ul,ol {margin:0; padding:0;}
+table, td, th {border-collapse:collapse;}
+ol,ul, li {list-style:none;}
+li,i{float: left;}
+img, input, textarea {vertical-align: middle; border:0;}
+a {text-decoration:none; color:#999; outline:none;}
+a:hover {text-decoration:underline;}
+a.noline{text-decoration: none;}
+.rel{position: relative;} .abs{position: absolute;}
+.fl {float:left;} .fr {float:right;} .tc{text-align: center;} .tr{text-align: right;}
+.b{font-weight: bold;} .lighter{font-weight: lighter;}
+.c{width: 960px;margin: 0 auto;}
+.f{width: 100%;float: left;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+* html .clearfix,*:first-child+html .clearfix{ zoom: 1; }
+/*extend*/
+.f12{font-size:12px;} .f14{font-size:14px;} .f16{font-size:16px;} .f18{font-size:18px;} .f20{font-size:20px;} .f24{font-size:24px;} .f28{font-size: 28px;}
+.gray{color:#9D9FA2; /* 灰色 */} .dimgray{color:#666; /* 深灰色 */} .black{color: #000; /* 纯黑 */} .purple{color:#525D7D; /* 紫色 */} .beige{color:#74624F; /* 咖啡 */} .dimgreen{color:#58724E;/* 墨绿 */} .green{color:#51AA36;/* 亮绿 */} .white{color:#FFFFFF;/* 白色 */} .blue{color:#5597BD; /* 天蓝 */}
+.m-t-20{margin-top: 20px;} .m-t-30{margin-top: 30px;} .m-b-10{margin-bottom: 10px;} .m-l-20{margin-left: 20px;}
